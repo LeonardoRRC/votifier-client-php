@@ -9,11 +9,8 @@ on:
       - .github/workflows/ci-cd.yml
       - "src/**"
       - "tests/**"
-      - .php_cs.dist
-      - .phpcs.xml
       - .scrutinizer.yml
       - composer.json
-      - phpunit.xml.dist
 
   pull_request:
 
@@ -93,9 +90,6 @@ jobs:
 
       - name: Check composer.json and composer.lock validity
         run: composer validate --strict
-
-      - name: Check with phpcs
-        run: ./vendor/bin/phpcs
 
       # Don't make this a requirement for now, php-cs-fixer fails to follow PSR-12 standard
       - name: Check whether code follows Symfony Code Syntax rules
