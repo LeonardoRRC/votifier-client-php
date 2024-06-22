@@ -1,5 +1,5 @@
 {
-    "name": "leonardorrc/votifier-client",
+    "name": "leonardorrc/votifier-client-php",
     "description": "Simple Tool to send vote request to a server which has the Votifier plugin.",
     "type": "library",
     "keywords": [
