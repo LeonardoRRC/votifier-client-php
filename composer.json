@@ -58,12 +58,12 @@
     },
     "autoload": {
         "psr-4": {
-            "D3strukt0r\\Votifier\\Client\\": "src/"
+            "LeonardoRRC\\VotifierClient\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "D3strukt0r\\Votifier\\Client\\": "tests/"
+            "LeonardoRRC\\VotifierClient\\Tests\\": "tests/"
         }
     },
     "config": {
