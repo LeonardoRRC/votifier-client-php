@@ -10,15 +10,16 @@
  * @link      https://github.com/D3strukt0r/votifier-client-php
  */
 
-namespace D3strukt0r\Votifier\Client\Server;
+namespace LeonardoRRC\VotifierClient\Server;
 
-use D3strukt0r\Votifier\Client\Exception\NotVotifierException;
-use D3strukt0r\Votifier\Client\Exception\NuVotifierChallengeInvalidException;
-use D3strukt0r\Votifier\Client\Exception\NuVotifierException;
-use D3strukt0r\Votifier\Client\Exception\NuVotifierSignatureInvalidException;
-use D3strukt0r\Votifier\Client\Exception\NuVotifierUnknownServiceException;
-use D3strukt0r\Votifier\Client\Exception\NuVotifierUsernameTooLongException;
-use D3strukt0r\Votifier\Client\Vote\VoteInterface;
+use LeonardoRRC\VotifierClient\Exception\NotVotifierException;
+use LeonardoRRC\VotifierClient\Exception\NuVotifierChallengeInvalidException;
+use LeonardoRRC\VotifierClient\Exception\NuVotifierException;
+use LeonardoRRC\VotifierClient\Exception\NuVotifierSignatureInvalidException;
+use LeonardoRRC\VotifierClient\Exception\NuVotifierUnknownServiceException;
+use LeonardoRRC\VotifierClient\Exception\NuVotifierUsernameTooLongException;
+use LeonardoRRC\VotifierClient\Vote\VoteInterface;
+
 use DateTime;
 use InvalidArgumentException;
 

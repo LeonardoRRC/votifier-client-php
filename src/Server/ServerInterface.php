@@ -10,13 +10,14 @@
  * @link      https://github.com/D3strukt0r/votifier-client-php
  */
 
-namespace D3strukt0r\Votifier\Client\Server;
+namespace LeonardoRRC\VotifierClient\Server;
 
-use D3strukt0r\Votifier\Client\Exception\NotVotifierException;
-use D3strukt0r\Votifier\Client\Exception\Socket\NoConnectionException;
-use D3strukt0r\Votifier\Client\Exception\Socket\PackageNotReceivedException;
-use D3strukt0r\Votifier\Client\Exception\Socket\PackageNotSentException;
-use D3strukt0r\Votifier\Client\Vote\VoteInterface;
+use LeonardoRRC\VotifierClient\Exception\NotVotifierException;
+use LeonardoRRC\VotifierClient\Exception\Socket\NoConnectionException;
+use LeonardoRRC\VotifierClient\Exception\Socket\PackageNotReceivedException;
+use LeonardoRRC\VotifierClient\Exception\Socket\PackageNotSentException;
+use LeonardoRRC\VotifierClient\Vote\VoteInterface;
+
 use InvalidArgumentException;
 
 /**
