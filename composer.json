@@ -1,5 +1,5 @@
 {
-    "name": "d3strukt0r/votifier-client",
+    "name": "leonardorrc/votifier-client",
     "description": "Simple Tool to send vote request to a server which has the Votifier plugin.",
     "type": "library",
     "keywords": [
@@ -7,7 +7,7 @@
         "vote",
         "votifier"
     ],
-    "homepage": "https://github.com/D3strukt0r/votifier-client-php",
+    "homepage": "https://github.com/LeonardoRRC/votifier-client-php",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
@@ -15,14 +15,19 @@
             "email": "manuele.vaccari@gmail.com",
             "homepage": "https://github.com/D3strukt0r",
             "role": "Developer"
+        },
+        {
+            "name": "Leonardo RRC",
+            "email": "bytessavvy@gmail.com",
+            "homepage": "https://github.com/LeonardoRRC",
+            "role": "Maintainer"
         }
     ],
     "support": {
         "email": "manuele.vaccari@gmail.com",
-        "issues": "https://github.com/D3strukt0r/votifier-client-php/issues",
-        "wiki": "https://github.com/D3strukt0r/votifier-client-php/wiki",
-        "source": "https://github.com/D3strukt0r/votifier-client-php",
-        "docs": "https://votifier-client-php.readthedocs.io"
+        "issues": "https://github.com/LeonardoRRC/votifier-client-php/issues",
+        "wiki": "https://github.com/LeonardoRRC/votifier-client-php/wiki",
+        "source": "https://github.com/LeonardoRRC/votifier-client-php"
     },
     "funding": [
         {
