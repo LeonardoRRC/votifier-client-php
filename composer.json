@@ -50,7 +50,7 @@
         "ext-pcre": "*"
     },
     "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "0.6.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
         "friendsofphp/php-cs-fixer": "^2.16",
         "phpcompatibility/php-compatibility": "*",
         "phpunit/phpunit": "^9 || ^8 || ^7",
